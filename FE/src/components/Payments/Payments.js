@@ -5,7 +5,7 @@ import "../Payments/Payments.css"
 import axios from 'axios'
 import Navigation from '../StarterPage/Navigation';
 var swal = require('sweetalert')
-const URL ="http://localhost:4004"
+const URL ="http://54.241.148.117:4004"
 
 class Payments extends React.Component {
     constructor(props){
