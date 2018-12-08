@@ -5,7 +5,7 @@ import {Redirect} from 'react-router-dom';
 
 import jwtDecode from 'jwt-decode';
 
-const URL="http://localhost:4004"
+const URL="http://54.241.148.117:4004"
 
 class SignUp extends React.Component {
 
