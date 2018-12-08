@@ -72,7 +72,6 @@ class Drinks extends Component {
                   </div>
 
                   <div className="col-md-6 content descrip">
-                  <li><Link to={redirect_url} value={this.props.name} onClick={id=>this.props.clicked(this.props.name)} class="header">{this.props.name}</Link></li>
                   <p className="cinema"> Name : {this.props.name}</p>
                   <p className="description"> Desciption : {"Must try special from Coffee with Cloudy Spartans"}</p>
                   <p class="ui label">Sizes : {this.props.sizes}</p>
