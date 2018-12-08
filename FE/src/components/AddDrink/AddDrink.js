@@ -6,7 +6,7 @@ import DrinkPhotos from '../DrinkPhotos/DrinkPhotos';
 import axios from 'axios';
 var swal = require('sweetalert')
 
-const URL = "http://localhost:4004"
+const URL = "http://54.241.148.117:4004"
 
 class AddDrink extends React.Component {
 
