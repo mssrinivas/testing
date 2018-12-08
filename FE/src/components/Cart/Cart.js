@@ -4,7 +4,7 @@ import {Route} from 'react-router-dom'
 import Link from 'react-router-dom/Link';
 
 
-const URL="http://localhost:4004"
+const URL="http://54.241.148.117:4004"
 class Cart extends Component {
     constructor(props) {
     super(props);
