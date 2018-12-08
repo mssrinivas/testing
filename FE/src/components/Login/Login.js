@@ -3,6 +3,9 @@ import './Login.css';
 import { Container, Row, Col, Button, Fa, Card, CardBody, ModalFooter } from 'mdbreact';
 import {Redirect} from 'react-router-dom';
 import jwtDecode from 'jwt-decode';
+
+const URL="http://54.241.148.117:4004"
+
 class Login extends React.Component {
   constructor(props) {
     super(props);
@@ -23,7 +26,7 @@ class Login extends React.Component {
   }
 
   onSubmitSignIn = () => {
-    fetch('http://localhost:4004/login', {
+    fetch('http://54.241.148.117:4004/login', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       credentials : 'include',
