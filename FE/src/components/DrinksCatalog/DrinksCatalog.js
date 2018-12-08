@@ -7,7 +7,7 @@ import Navigation from '../StarterPage/Navigation'
 import { Container, Row, Col, Button, Fa, Card, CardBody, ModalFooter } from 'mdbreact';
 var swal = require('sweetalert')
 
-const URL="http://localhost:4004"
+const URL="http://54.241.148.117:4004"
 class DrinksCatalog extends React.Component {
 
  constructor(props) {
